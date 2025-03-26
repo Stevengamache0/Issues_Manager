@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand">Issues Manager</a>
+        <div class="collapse navbar-collapse d-flex flex-row">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/tech/add" class="nav-link">Technicians</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/issues/add" class="nav-link">Issues</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">Listing</button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="/tech/list">Technicians</a></li>
+                        <li><a class="dropdown-item" href="/issues/list">Issues</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#aboutModal">About</a>
+
+                    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>This is a simple app that allows you to manage issues and technicians. This system is developed and maintained by Steven Gamache.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
